@@ -105,7 +105,20 @@ public class LoanCalculation {
         this.schedule = schedule;
     }
 
-
+    @Override
+    public String toString() {
+        return "LoanCalculation{" +
+                "resultValue=" + resultValue +
+                ", id=" + id +
+                ", principal=" + principal +
+                ", annualRate=" + annualRate +
+                ", years=" + years +
+                ", loanType='" + loanType + '\'' +
+                ", defermentMonths=" + defermentMonths +
+                ", bondCouponRate=" + bondCouponRate +
+                ", totalMonths=" + totalMonths +
+                '}';
+    }
 
     @Embeddable
     public static class ScheduleRow {

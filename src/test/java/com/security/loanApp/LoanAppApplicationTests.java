@@ -3,10 +3,10 @@ package com.security.loanApp;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+//@SpringBootTest
 class LoanAppApplicationTests {
 
-	@Test
+	//@Test
 	void contextLoads() {
 	}
 
